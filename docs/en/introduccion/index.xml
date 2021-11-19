@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to web development on DWES English</title>
+    <link>https://anadeap.github.io/dwes/en/introduccion/</link>
+    <description>Recent content in Introduction to web development on DWES English</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 20:19:08 +0100</lastBuildDate><atom:link href="https://anadeap.github.io/dwes/en/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1 General concepts of web development</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/conceptos_generales/</link>
+      <pubDate>Sun, 07 Nov 2021 20:21:37 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/conceptos_generales/</guid>
+      <description>Parts to analyze:
+ Develop an application Web Applications Server environment  Develop an application It consists of ** implementing ** or building a program using a certain programming language. Said program consists of ** a set of instructions ** that executed in a computational environment ** solve ** in an automated way ** the problem posed **. Written instructions must be converted to machine code. To do this, they can be ** compiled ** or ** interpreted **.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Web architecture and technology</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/arquitectura_web/</link>
+      <pubDate>Sun, 07 Nov 2021 20:21:56 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/arquitectura_web/</guid>
+      <description>The web architecture is the structure of our final product. It is the organization of the code. It is emerging throughout its development. You have to decide at the beginning which tools or technologies to use.
+  Layers of a web application:
+ Data access layer: stores the application information in a database.
+Middle layer: programs the application&amp;rsquo;s functionality.
+Client layer: includes everything related to the user interface, the visible part.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Web page loading process</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/carga_web/</link>
+      <pubDate>Sun, 07 Nov 2021 20:22:13 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/carga_web/</guid>
+      <description>1. The user enters a URL in the client (browser).
+2. The browser looks for the IP:
+ First in the browser cache Second, in the operating system cache Third, in the router cache Fourth, in the ISP cache  If it cannot find the IP, the ISP&amp;rsquo;s DNS server starts a query to find the address IP of the server where the domain name is hosted. The application is sent in small data packets containing information about the content of the request and the address IP.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Resources installation</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/instalacion/</link>
+      <pubDate>Sun, 07 Nov 2021 20:22:29 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/instalacion/</guid>
+      <description>Necessary resources for Web Development in Server Environment   Resources installation   Resources installation.pdf (424 KB)     Java PhpStorm Apache Php e intérprete de Php Mysql - cliente y servidor XDebug  Java PhpStorm Apache Php e intérprete de Php Mysql (cliente y servidor) XDebug </description>
+    </item>
+    
+    <item>
+      <title>1.5 Web tools and technologies</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/herramientas_web/</link>
+      <pubDate>Sat, 13 Nov 2021 11:49:36 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/herramientas_web/</guid>
+      <description>WEB TECHNOLOGIES  PHP: open source language especially suitable for web development and that can be embedded in HTML  PHP   JavaScript (JS): cross-platform programming language, prototyped, interpreted, imperative, structured, with support for object-oriented programming  JavaScript   CSS (Cascading Style Sheets): graphic design language to define and create the presentation of a structured document written in a markup language. It is widely used to establish the visual design of web documents  CSS   JSP (Java Server Pages): technology aimed at creating web pages with Java programming.</description>
+    </item>
+    
+  </channel>
+</rss>

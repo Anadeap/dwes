@@ -1,0 +1,141 @@
+[
+{
+	"uri": "https://anadeap.github.io/dwes/es/introduccion/",
+	"title": "Introducción al desarrollo web",
+	"tags": [],
+	"description": "",
+	"content": "SECCIÓN 1 Introducción al desarrollo web En esta sección se hace una breve introducción al desarrollo web\n Conceptos generales del desarrollo web Arquitectura web Proceso de carga de una página web Instalación de los recursos Herramienta y tecnologías web  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/introduccion/conceptos_generales/",
+	"title": "1.1 Conceptos generales del desarrollo web",
+	"tags": [],
+	"description": "",
+	"content": "Partes a analizar:\n Desarrollar una aplicación Aplicaciones Web Entorno servidor  Desarrollar una aplicacion Consiste en implementar o construir un programa usando un determinado lenguaje de programación. Dicho programa consiste en un conjunto de instrucciones que ejecutadas en un entorno computacional solucionan de forma automatizada el problema planteado. Las instrucciones escritas han de pasar a código máquina. Para ello, pueden compilarse o interpretarse.\nAplicaciones web Características  El cliente es el navegador (una aplicación ejecutándose en una máquina con una ip) que solicita un recurso. Inicia el proceso. El servidor es una aplicación que atiende a las solicitudes que entran por un puerto y entregan el recurso solicitado. Las aplicaciones web usan una arquitectura Cliente/Servidor  Entorno servidor  El servidor recibe e interpreta la solicitud del cliente. Accede a bases de datos según necesidades. Ejecuta código en el servidor, generando como resultado una página html que la manda al cliente. El cliente no ve el código del servidor.   Conceptos generales   Conceptos generales.pdf (1 MB)      "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/introduccion/arquitectura_web/",
+	"title": "1.2 Arquitectura web",
+	"tags": [],
+	"description": "",
+	"content": " La arquitectura web es la estructura de nuestro producto final. Es la organización del código. Se va perfilando en todo su desarrollo. Hay que decidir al principio que herramientas ó tecnologías utilizar.\n  Capas de una aplicación web:\n Capa de acceso a datos: almacena la información de la aplicacion en una base de datos.\nCapa intermedia: programa la funcionalidad de la aplicación.\nCapa cliente: engloba todo lo relacionado con la interfaz de usuario, la parte visible.\n  Componentes de una aplicación web:  Un servidor web para recibir las peticiones de los clientes web.   Un servidor web es un software encargado de recibir una solicitud por la red. En una red de tipo TCP/IP, la solicitud se recibe usando el protocolo http. Responder a dicha solicitud implica verificar permisos, ejecutar script\u0026hellip; Y generar un mensaje de respuesta, página html normalmente, usando el protocolo http.  Un servidor de Bases de datos   El servidor de bases de datos suele estar en un servidor específico para ese cometido.  Un módulo de ejecución de código en el servidor   Genera la página web resultante. Es necesario tener instalado un módulo en el servidor que ejecute el código antes de mandar la respuesta al cliente.  Un cliente   Inicia el proceso. Suele ser un navegador. Recibe la respuesta del servidor. Interpreta las etiquetas de html y aplica el estilo css Ejecuta el código JavaScript  Lenguajes de programación   Necesarios en el lado cliente y en servidor.  Tecnologías web  Son herramientas que se usan para la arquitectura\n Ejemplos:\n  Arquitectura web   Arquitecturas y tecnologías web.pdf (265 KB)    "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/introduccion/carga_web/",
+	"title": "1.3 Proceso de carga de una página web",
+	"tags": [],
+	"description": "",
+	"content": "1.\tEl usuario introduce una URL en el cliente (navegador).\n2.\tEl navegador busca la IP:\n Primero en el caché del navegador Segundo, en el caché del sistema operativo Tercero, en el caché del router Cuarto, en el caché de ISP  Si no encuentra la IP, el servidor DNS del ISP inicia una consulta para encontrar la dirección IP del servidor donde se aloja el nombre del dominio. La solicitud se envía en pequeños paquetes de datos que contienen información sobre el contenido de la solicitud y la dirección IP.\n3.\tEl navegador inicia una conexión TCP/IP con el servidor mediante mensajes de sincronización (SYN) y reconocimiento (ACK).\n4.\tEl cliente envía una solicitud HTTP.\nEl protocolo HTTPS involucra otro protocolo llamado TLS que proporciona autenticación y encriptación (el navegador cifra una preclave generada en el momento con la clave pública del servidor al que nos queremos conectar). Eso se envía al servidor, que descifra la preclave con su clave privada - criptografía asimétrica: un mensaje cifrado con una clave sólo puede ser cifrado con su par correspondiente. El servidor y el navegador aplican un cierto algoritmo a la preclave y obtienen la misma clave de cifrado - ).\n5.\tSi la solicitud tiene éxito, el servidor envía la respuesta.\n5.1 En las webs estáticas, el servidor envía el contenido de la página en HTML.\nEn las webs dinámicas, los scripts se pueden ejecutar:\n5.2 Programación del lado del cliente:\nDespués de que el navegador descarga la página, detecta el código dentro del HTML que el servidor envía y lo ejecuta (dentro del navegador o como programa separado fuera del navegador). Por ejemplo, el navegador ejecuta JavaScript que está dentro del HTML, procesa las etiquetas del HTML y aplica estilos CSS. Parsing: si es necesario, solicita recursos al servidor.\n5.3 Programación del lado del servidor:\nEl servidor, normalmente en lenguaje PHP, interpreta el script, inserta el HTML generado por el código directamente en la página web y luego lo envía al cliente. También hace consultas a la Bases de Datos.\n6.\tEl navegador procesa el DOM y construye la página, combinando la información encontrada en los datos del servidor (el archivo HTML original) y en los recursos.\nSi se necesita una consulta a la Base de Datos, para no cargar otra página, se puede utilizar la tecnología AJAX que permite a JavaScript mandar peticiones a scripts de PHP. JavaScript recibe como respuesta cadenas de texto, y en base a la respuesta puede dibujar nuevos elementos de la interfaz gráfica o cambiarlos.\n7.\tEl motor de renderizado del navegador es determinante al interpretar las líneas de código. Es por eso que hay diferencias en la visualización de una página en distintos navegadores\ngraph LR; A[CLIENTE 1-2] --|TCP/IP| B(SERVIDOR 3-4) B -- C{5} C --|5.1| D[CLIENTE 6-7] C --|5.2| E[CLIENTE 6-7] C --|5.3| F[CLIENTE 6-7]  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/introduccion/instalacion/",
+	"title": "1.4 Instalación de los recursos",
+	"tags": [],
+	"description": "",
+	"content": "Recursos necesarios para Desarrollo Web en Entorno Servidor   Instalación de los recursos   Instalación de los recursos.pdf (424 KB)     Java PhpStorm Apache Php e intérprete de Php Mysql - cliente y servidor XDebug  Java PhpStorm Apache Php e intérprete de Php Mysql (cliente y servidor) XDebug "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/introduccion/herramientas_web/",
+	"title": "1.5 Herramientas y tecnologías web",
+	"tags": [],
+	"description": "",
+	"content": "TECNOLOGÍAS WEB  PHP: lenguaje de código abierto especialmente adecuado para el desarrollo web y que puede ser incrutado en HTML  PHP   JavaScript (JS): lenguaje de programación multiplataforma, prototipado, interpretado, imperativo, estructurado, con soporte para programación orientada a objetos  JavaScript   CSS (Cascading Style Sheets): lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web  CSS   JSP (Java Server Pages): tecnología orientada a crear páginas web con programación en Java. Se pueden crear aplicaciones web que se ejecuten en variados servidores web, de múltiples plataformas  JSP   JQuery: biblioteca multiplataforma de JavaScript que simplifica la manera de interactuar con los documentos HTML. Es software libre y de código abierto  JQuery    FRAMEWORKS  Angular: facilita el desarrollo de aplicaciones web SPA; separa el front-end y el back-end en una aplicación web  Angular   React: librería de JavaScript de código abierto focalizada en el desarrollo de interfaces de usuario. Front-end. Facilita mucho el desarrollo y la planificación de apps complejas  React   Bootstrap: framework para CSS y JavaScript, front-end. Permite crear interfaces de usuario limpias y totalmente adaptables a todo tipo de dispositivos y pantallas, sea cual sea su tamaño  Bootstrap   Prototype:para desarrollo de aplicaciones web con JavaScript y AJAX  Prototype   Vue: framework de front-end de JavaScript para crear interfaces de usuario y aplicaciones de una sola página  Vue   Django: framework escrito en Python, back-end. Permite el desarrollo rápido de sitios web seguros y mantenibles. Es gratuito y de código abierto  Django   Frameworks de php: plataformas para crear aplicaciones web php. Proporcionan bibliotecas de código, reduciendo la cantidad de código original. Laravel: framework de php. Permite el desarrollo de aplicaciones web totalmente personalizadas de gran calidad  Laravel   Hugo: framework escrito en go. Es un generador de sitios web estáticos muy rápido  Hugo   Gatsby: framework, generador de sitios estáticos  Gatsby   Jekyll: generador simple para sitios web estáticos con capacidades de blog; adecuado para sitios web personales, de proyecto o de organizaciones  Jekyll   Pelican: generador de sitios estáticos, escrito en Python  Pelican    HERRAMIENTAS WEB  TypeScript: lenguaje de programacion que transforma código a JavaScript, transpilador en front-end  TypeScript   Babel: compilador de JavaScript. Transpilador de código ES6+ a ES5  Babel   Scraping: técnica que sirve para extraer información de páginas web de forma automatizada. Simula la navegación de un humano  Scraping   Heroku: plataforma (PaaS) de servicio de computación en la nube que permite desplegar aplicaciones sin preocuparse por la infraestructura. Soporta múltiples lenguajes de programación  Heroku   Webpack: paquete de módulos estáticos para JavaScript. Compila y comprime archivos con dependencias a archivos js  Webpack   Polyfill: fragmento de código o plugin, en JavaScript, que se utiliza para proporcionar una funcionalidad moderna en navegadores antiguos que no lo admiten  Polyfill   Sass: transpilador para CSS, muy potente. Es necesario tener instalado ruby  Sass    "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/",
+	"title": "Generador de sitios estáticos hugo",
+	"tags": [],
+	"description": "",
+	"content": "SECCIÓN 2 GENERADOR DE SITIOS ESTÁTICOS hugo En esta sección se trata hugo, que es un framework generador de sitios estáticos\n Teoría Práctica  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/",
+	"title": "2.1 Teoría de hugo",
+	"tags": [],
+	"description": "",
+	"content": " Instalación de hugo Temas - Themes Añadir contenido Shortcodes Personalizar plantilla Multilenguaje Plantilla personalizada propia Datos externos - Canales de tv  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/instalacion_hugo/",
+	"title": "Instalación de hugo",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/temas/",
+	"title": "Temas - Themes",
+	"tags": [],
+	"description": "",
+	"content": "Themes (temas) disponibles en hugo Themes de hugo  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/contenido/",
+	"title": "Añadir contenido",
+	"tags": [],
+	"description": "",
+	"content": "Añadir contenido a las páginas\n Para añadir contenido hay que generar páginas de texto con formato markdown\n Creando páginas de contenido Es importante establecer bien la organización de los contenidos\n Crear directorios chapter ó sección. Puede incluir un fichero _index.md Crear ficheros de contenido con el comando hugo new nombre_seccion/nombre_fichero.md Los ficheros se crean en la carpeta content del directorio raíz del sitio Las secciones ó capitulos tienen un contenido por defecto especificado en archetypes/chapter.md Los ficheros tienen un contenido por defecto especificado en archetypes/default.md Cada fichero creado tiene al comienzo el front matter, encerrado entre dos bloques de 3 líneas - - - Las taxonomías permiten clasificar contenido. Por defecto, hugo añade las taxonomías categories y tags  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/shortcodes/",
+	"title": "Shortcodes",
+	"tags": [],
+	"description": "",
+	"content": "EJEMPLOS DE SHORTCODES  Un shortcode es un fragmento de código html que será renderizado dentro de un fichero md cuando el sistema cargue o renderice la página de contenido\n  Botones\nBotón que enlaza con la web de hugo\n Web de hugo     Attachments - páginas de descarga    Página Ubicación attachments     md en directorio con el mismo nombre de la página y acabado en .files   directorio en un directorio files anidado        Attachments   Documentación attachments.pdf (69 KB)     Acortar un texto con leer más\u0026hellip;\nClicar en el texto para expandir   Hugo es uno de los generadores de sitios estáticos de código abierto más populares.   Con su increíble velocidad y flexibilidad, Hugo vuelve a hacer divertido la creación de sitios web.     Textos remarcados\nNoticia Noticia\n Información Información\n Aviso Aviso\n    Tabs de diferentes elementos\nMuy útil para proporcionar fragmentos de código para varios idiomas o proporcionar configuración en diferentes formatos\njson XML properties  { \u0026#34;Hello\u0026#34;: \u0026#34;World\u0026#34; }   \u0026lt;Hello\u0026gt;World\u0026lt;/Hello\u0026gt;   Hello = World        Enlace a un video de youtube\n    "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/personalizar_plantilla/",
+	"title": "Personalizar plantilla",
+	"tags": [],
+	"description": "",
+	"content": "Partes de una plantilla 1. LOGO\n logo.html está ubicado en themes/layouts/partials Para personalizar el logo, copiar el fichero en mi_sitio/layouts/partials Crear en static una carpeta - images - y dentro pegar un logo.png Referenciarlo en logo.html    2. MENÚ\n En la plantilla learn, el menú está ubicado en la parte izquierda. Para añadir/modificar, hay que especificarlo en config.toml, añadiendo los elementos [[menu.shortcuts]]\n El título del menú se establece en /i18n/es.toml para el idioma español\n   3. ESTILO\n learn tiene 3 estilos de colores diferentes Para utilizarlos, hay que establecer el valor en la variable themeVariant en el fichero config.toml Los valores permitidos son red, green, blue También se pueden crear ficheros css y cargarlos. Por ejemplo, para establecer otro color de fondo del menú distinto a los colores por defecto:   Copiar themes/learn/static/css/theme-blue.css en un fichero theme-dwes.css ubicado en static/css\nEstablecer themeVariant = \u0026ldquo;dwes\u0026rdquo;\n  4. BOTÓN DE BÚSQUEDA\n Se puede modificar desde theme-dwes.css 5. HOME Se modifica en config.toml, modificando los parámetros dentro de una sección de lenguaje   5. FOOTER\n Para modificarlo, copiar menu-footer.html en layouts/partials  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/multilenguaje/",
+	"title": "Multilenguaje",
+	"tags": [],
+	"description": "",
+	"content": "Establecer diferentes idiomas en hugo\n1. Modificar config.toml\n 2. Se puede establecer un idioma por defecto  3. Cambiando la página por defecto\n Hay que establecer el contenido de la página por defecto en los idiomas En learn, si no hay contenido en \u0026ldquo;content\u0026rdquo;, este contenido está en el fichero index.html, ubicado en themes/learn/layouts Esta plantilla está preparada para inglés y francés, por lo que hay que añadir una estructura de control para incluir otro idioma   4. Cambiando valores a través de variables\n Se pueden especificar palabras para ser traducidas En i18n, las 2 primeras letras de los ficheros identifican el idioma Estos ficheros traducen y el sistema obtiene el valor del fichero, usando la función de traducción de hugo    5. Menús en varios idiomas\n Establecer en config.toml:   [Languages] [Languages.es] ... [[Languages.es.menu.shortcuts]]  6. Añadiendo páginas traducidas\n Una forma de especificar las traducciones es nombrar cada fichero correspondiente a una página referenciando a los idiomas\n fichero.es.md fichero.en.md fichero.fr.md  En config.toml, indicar, con la variable contentDir, el directorio dónde se ubican los ficheros traducidos al idioma:   [Languages] [Languages.es] ... ContentDir = \u0026quot;content\u0026quot; "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/plantilla_propia/",
+	"title": "Plantilla personalizada propia",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/teoria/datos_externos/",
+	"title": "Canales TV",
+	"tags": [],
+	"description": "",
+	"content": "Consumir datos de ficheros con estructura\nLISTADO DE CANALES ESPAÑOLES DE TV  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/estatico/practica/",
+	"title": "2.2 Practica de hugo",
+	"tags": [],
+	"description": "",
+	"content": "Realizar la siguiente práctica con hugo "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/",
+	"title": "DWES Español",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/es/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

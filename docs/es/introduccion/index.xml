@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción al desarrollo web on DWES Español</title>
+    <link>https://anadeap.github.io/dwes/es/introduccion/</link>
+    <description>Recent content in Introducción al desarrollo web on DWES Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 20:19:08 +0100</lastBuildDate><atom:link href="https://anadeap.github.io/dwes/es/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1 Conceptos generales del desarrollo web</title>
+      <link>https://anadeap.github.io/dwes/es/introduccion/conceptos_generales/</link>
+      <pubDate>Sun, 07 Nov 2021 20:21:37 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/introduccion/conceptos_generales/</guid>
+      <description>Partes a analizar:
+ Desarrollar una aplicación Aplicaciones Web Entorno servidor  Desarrollar una aplicacion Consiste en implementar o construir un programa usando un determinado lenguaje de programación. Dicho programa consiste en un conjunto de instrucciones que ejecutadas en un entorno computacional solucionan de forma automatizada el problema planteado. Las instrucciones escritas han de pasar a código máquina. Para ello, pueden compilarse o interpretarse.
+Aplicaciones web Características  El cliente es el navegador (una aplicación ejecutándose en una máquina con una ip) que solicita un recurso.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Arquitectura web</title>
+      <link>https://anadeap.github.io/dwes/es/introduccion/arquitectura_web/</link>
+      <pubDate>Sun, 07 Nov 2021 20:21:56 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/introduccion/arquitectura_web/</guid>
+      <description>La arquitectura web es la estructura de nuestro producto final. Es la organización del código. Se va perfilando en todo su desarrollo. Hay que decidir al principio que herramientas ó tecnologías utilizar.
+  Capas de una aplicación web:
+ Capa de acceso a datos: almacena la información de la aplicacion en una base de datos.
+Capa intermedia: programa la funcionalidad de la aplicación.
+Capa cliente: engloba todo lo relacionado con la interfaz de usuario, la parte visible.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Proceso de carga de una página web</title>
+      <link>https://anadeap.github.io/dwes/es/introduccion/carga_web/</link>
+      <pubDate>Sun, 07 Nov 2021 20:22:13 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/introduccion/carga_web/</guid>
+      <description>1.	El usuario introduce una URL en el cliente (navegador).
+2.	El navegador busca la IP:
+ Primero en el caché del navegador Segundo, en el caché del sistema operativo Tercero, en el caché del router Cuarto, en el caché de ISP  Si no encuentra la IP, el servidor DNS del ISP inicia una consulta para encontrar la dirección IP del servidor donde se aloja el nombre del dominio. La solicitud se envía en pequeños paquetes de datos que contienen información sobre el contenido de la solicitud y la dirección IP.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Instalación de los recursos</title>
+      <link>https://anadeap.github.io/dwes/es/introduccion/instalacion/</link>
+      <pubDate>Sun, 07 Nov 2021 20:22:29 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/introduccion/instalacion/</guid>
+      <description>Recursos necesarios para Desarrollo Web en Entorno Servidor   Instalación de los recursos   Instalación de los recursos.pdf (424 KB)     Java PhpStorm Apache Php e intérprete de Php Mysql - cliente y servidor XDebug  Java PhpStorm Apache Php e intérprete de Php Mysql (cliente y servidor) XDebug </description>
+    </item>
+    
+    <item>
+      <title>1.5 Herramientas y tecnologías web</title>
+      <link>https://anadeap.github.io/dwes/es/introduccion/herramientas_web/</link>
+      <pubDate>Sat, 13 Nov 2021 11:49:36 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/introduccion/herramientas_web/</guid>
+      <description>TECNOLOGÍAS WEB  PHP: lenguaje de código abierto especialmente adecuado para el desarrollo web y que puede ser incrutado en HTML  PHP   JavaScript (JS): lenguaje de programación multiplataforma, prototipado, interpretado, imperativo, estructurado, con soporte para programación orientada a objetos  JavaScript   CSS (Cascading Style Sheets): lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web  CSS   JSP (Java Server Pages): tecnología orientada a crear páginas web con programación en Java.</description>
+    </item>
+    
+  </channel>
+</rss>

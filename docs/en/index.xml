@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DWES English</title>
+    <link>https://anadeap.github.io/dwes/en/</link>
+    <description>Recent content on DWES English</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Nov 2021 10:48:20 +0100</lastBuildDate><atom:link href="https://anadeap.github.io/dwes/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1 General concepts of web development</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/conceptos_generales/</link>
+      <pubDate>Sun, 07 Nov 2021 20:21:37 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/conceptos_generales/</guid>
+      <description>Parts to analyze:
+ Develop an application Web Applications Server environment  Develop an application It consists of ** implementing ** or building a program using a certain programming language. Said program consists of ** a set of instructions ** that executed in a computational environment ** solve ** in an automated way ** the problem posed **. Written instructions must be converted to machine code. To do this, they can be ** compiled ** or ** interpreted **.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Web architecture and technology</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/arquitectura_web/</link>
+      <pubDate>Sun, 07 Nov 2021 20:21:56 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/arquitectura_web/</guid>
+      <description>The web architecture is the structure of our final product. It is the organization of the code. It is emerging throughout its development. You have to decide at the beginning which tools or technologies to use.
+  Layers of a web application:
+ Data access layer: stores the application information in a database.
+Middle layer: programs the application&amp;rsquo;s functionality.
+Client layer: includes everything related to the user interface, the visible part.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Web page loading process</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/carga_web/</link>
+      <pubDate>Sun, 07 Nov 2021 20:22:13 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/carga_web/</guid>
+      <description>1. The user enters a URL in the client (browser).
+2. The browser looks for the IP:
+ First in the browser cache Second, in the operating system cache Third, in the router cache Fourth, in the ISP cache  If it cannot find the IP, the ISP&amp;rsquo;s DNS server starts a query to find the address IP of the server where the domain name is hosted. The application is sent in small data packets containing information about the content of the request and the address IP.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Resources installation</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/instalacion/</link>
+      <pubDate>Sun, 07 Nov 2021 20:22:29 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/instalacion/</guid>
+      <description>Necessary resources for Web Development in Server Environment   Resources installation   Resources installation.pdf (424 KB)     Java PhpStorm Apache Php e intérprete de Php Mysql - cliente y servidor XDebug  Java PhpStorm Apache Php e intérprete de Php Mysql (cliente y servidor) XDebug </description>
+    </item>
+    
+    <item>
+      <title>1.5 Web tools and technologies</title>
+      <link>https://anadeap.github.io/dwes/en/introduccion/herramientas_web/</link>
+      <pubDate>Sat, 13 Nov 2021 11:49:36 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/introduccion/herramientas_web/</guid>
+      <description>WEB TECHNOLOGIES  PHP: open source language especially suitable for web development and that can be embedded in HTML  PHP   JavaScript (JS): cross-platform programming language, prototyped, interpreted, imperative, structured, with support for object-oriented programming  JavaScript   CSS (Cascading Style Sheets): graphic design language to define and create the presentation of a structured document written in a markup language. It is widely used to establish the visual design of web documents  CSS   JSP (Java Server Pages): technology aimed at creating web pages with Java programming.</description>
+    </item>
+    
+    <item>
+      <title>Hugo installation</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/instalacion_hugo/</link>
+      <pubDate>Sun, 07 Nov 2021 20:41:23 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/instalacion_hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/temas/</link>
+      <pubDate>Sun, 07 Nov 2021 20:42:53 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/temas/</guid>
+      <description>Themes available in hugo Hugo themes  </description>
+    </item>
+    
+    <item>
+      <title>Add content</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/contenido/</link>
+      <pubDate>Sun, 07 Nov 2021 20:44:12 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/contenido/</guid>
+      <description>Add content to pages
+ To add content you have to generate text pages with ** markdown ** format
+ Creating content pages It is important to establish well the organization of the contents
+ Create chapter or section directories. You can include a _index.md file Create content files with the command hugo new section_name / file_name.md The files are created in the ** content ** folder of the site&amp;rsquo;s root directory Sections or chapters have a default content specified in archetypes / chapter.</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/shortcodes/</link>
+      <pubDate>Sun, 07 Nov 2021 20:45:32 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/shortcodes/</guid>
+      <description>EXAMPLES OF SHORTCODES  A shortcode is a snippet of html code that will be rendered inside an md file when the system loads or renders the content page
+  Buttons
+Button that links to hugo&amp;rsquo;s website  Web de hugo     Attachments - download pages    Page Attachments location     md in directory with the same page name and ending in .</description>
+    </item>
+    
+    <item>
+      <title>Customize template</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/personalizar_plantilla/</link>
+      <pubDate>Sun, 07 Nov 2021 20:48:53 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/personalizar_plantilla/</guid>
+      <description>Parts of a template 1. LOGO
+ logo.html is located in themes/layouts/partials To customize the logo, copy the file in my_site/layouts/partials Create in static a folder - images - and inside paste a logo.png Reference it in logo.html    2. MENU
+ In the layout learn, the menu is located in the left side To add / modify, you have to specify it in config.toml, adding the elements [[menu.</description>
+    </item>
+    
+    <item>
+      <title>Multilanguage</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/multilenguaje/</link>
+      <pubDate>Sun, 07 Nov 2021 20:50:09 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/multilenguaje/</guid>
+      <description>Set different languages ​​in hugo 1. Modify config.toml  2. You can set a default language  3. Changing the default page
+ You have to set the content of the page by default in the languages In learn, if there is no content in &amp;ldquo;content&amp;rdquo;, this content is in the index.html file, located in themes / learn / layouts This template is prepared for English and French, so you have to add a control structure to include another language   4.</description>
+    </item>
+    
+    <item>
+      <title>Own custom layout</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/plantilla_propia/</link>
+      <pubDate>Sun, 07 Nov 2021 20:51:01 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/plantilla_propia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TV channels</title>
+      <link>https://anadeap.github.io/dwes/en/estatico/teoria/datos_externos/</link>
+      <pubDate>Sun, 07 Nov 2021 20:52:54 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/en/estatico/teoria/datos_externos/</guid>
+      <description>Consume data from structured files
+LIST OF SPANISH TV CHANNELS  </description>
+    </item>
+    
+  </channel>
+</rss>

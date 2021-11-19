@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OWN CUSTOM LAYOUT</title>
+    </head>
+    <body>
+        
+        <h2>Example of own custom layout</h2>
+
+        <p><b>To create your own layout in hugo:</b> <br/>
+        - Create a <b>file.html</b> within layouts/_default of the site<br/>
+        - Create a <b>file.md</b> y reference the file.html: <b>layout: "file"</b><br/>   
+        </p></br/><br/>
+        <!--show the title of the layout-->
+        <b>The title of the layout is: </b>
+        <span style="color:firebrick">
+            {{ .Title }}
+        </span>
+    </body>
+</html>
+

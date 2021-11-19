@@ -1,0 +1,141 @@
+[
+{
+	"uri": "https://anadeap.github.io/dwes/en/introduccion/",
+	"title": "Introduction to web development",
+	"tags": [],
+	"description": "",
+	"content": "SECTION 1 Introduction to web development This section makes a brief introduction to web development\n General concepts of web development Web architecture and technology Web page loading process Installation of resources Web tools and technologies  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/introduccion/conceptos_generales/",
+	"title": "1.1 General concepts of web development",
+	"tags": [],
+	"description": "",
+	"content": "Parts to analyze:\n Develop an application Web Applications Server environment  Develop an application It consists of ** implementing ** or building a program using a certain programming language. Said program consists of ** a set of instructions ** that executed in a computational environment ** solve ** in an automated way ** the problem posed **. Written instructions must be converted to machine code. To do this, they can be ** compiled ** or ** interpreted **.\nWeb applications Characteristics  The client is the browser (an application running on a machine with an ip) that requests a resource. Start the process. The server is an application that attends to requests that enter through a port and deliver the requested resource. Web applications use a Client / Server architecture  Server environment  The server receives and interprets the client\u0026rsquo;s request. Access databases according to needs. Execute code on the server, generating as a result an html page that sends it to the client. The client does not see the server code.  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/introduccion/arquitectura_web/",
+	"title": "1.2 Web architecture and technology",
+	"tags": [],
+	"description": "",
+	"content": " The web architecture is the structure of our final product. It is the organization of the code. It is emerging throughout its development. You have to decide at the beginning which tools or technologies to use.\n  Layers of a web application:\n Data access layer: stores the application information in a database.\nMiddle layer: programs the application\u0026rsquo;s functionality.\nClient layer: includes everything related to the user interface, the visible part.\n  Components of a web application:  A web server to receive requests from web clients.   A web server is a software in charge of receiving a request over the network. In a TCP / IP type network, the request is received using the http protocol. Responding to this request implies checking permissions, executing script \u0026hellip; And generate a response message, normally html page, using the http protocol.  A database server   The database server is usually on a specific server for that purpose.  A code execution module on the server   Generates the resulting web page. It is necessary to have a module installed on the server that executes the code before sending the response to the client.  A client   Starts the process. It is usually a browser. Receive the response from the server. Interpret html tags and apply css style Run the JavaScript code  Programming languages   Necessary on the client and server side.  Web technologies  They are tools used for architecture\n Examples: "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/introduccion/carga_web/",
+	"title": "1.3 Web page loading process",
+	"tags": [],
+	"description": "",
+	"content": "1. The user enters a URL in the client (browser).\n2. The browser looks for the IP:\n First in the browser cache Second, in the operating system cache Third, in the router cache Fourth, in the ISP cache  If it cannot find the IP, the ISP\u0026rsquo;s DNS server starts a query to find the address IP of the server where the domain name is hosted. The application is sent in small data packets containing information about the content of the request and the address IP.\n3. The browser initiates a TCP / IP connection to the server using synchronization (SYN) and acknowledgment (ACK) messages.\n4. The client sends an HTTP request.\nThe HTTPS protocol involves another protocol called TLS that provides authentication and encryption (the browser encrypts a prekey generated at the moment with the public key of the server we want to connect to). This is sent to the server, which decrypts the prekey with its private key - Asymmetric cryptography: a message encrypted with a key can only be encrypted with its corresponding pair. The server and the browser apply a certain algorithm to the prekey and obtain the same encryption key -).\n5. If the request is successful, the server sends the response.\n5.1 In static webs, the server sends the content of the page in HTML.\nOn dynamic webs, scripts can be run:\n5.2 Client-side programming:\nAfter the browser downloads the page, it detects the code within the HTML that the server sends and executes it (within the browser or as a separate program outside the browser). For example, the browser executes JavaScript inside the HTML, processes the HTML tags, and applies CSS styles. Parsing: if necessary, request resources from the server.\n5.3 Server-side programming:\nThe server, usually in PHP language, interprets the script, inserts the HTML generated by the code directly into the web page and then sends it to the client. It also makes queries to the Database.\n6. The browser processes the DOM and builds the page, combining the information found in the server data (the original HTML file) and in the resources.\nIf you need a query to the Database, in order not to load another page, you can use AJAX technology that allows JavaScript to send requests to PHP scripts. JavaScript receives text strings as a response, and based on the response you can draw new GUI elements or change them.\n** 7 **. The rendering engine of the browser is decisive when interpreting the lines of code. That is why there are differences in the display of a page in different browsers\ngraph LR; A[CLIENT 1-2] --|TCP/IP| B(SERVER 3-4) B -- C{5} C --|5.1| D[CLIENT 6-7] C --|5.2| E[CLIENT 6-7] C --|5.3| F[CLIENT 6-7]  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/introduccion/instalacion/",
+	"title": "1.4 Resources installation",
+	"tags": [],
+	"description": "",
+	"content": "Necessary resources for Web Development in Server Environment   Resources installation   Resources installation.pdf (424 KB)     Java PhpStorm Apache Php e intérprete de Php Mysql - cliente y servidor XDebug  Java PhpStorm Apache Php e intérprete de Php Mysql (cliente y servidor) XDebug "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/introduccion/herramientas_web/",
+	"title": "1.5 Web tools and technologies",
+	"tags": [],
+	"description": "",
+	"content": "WEB TECHNOLOGIES  PHP: open source language especially suitable for web development and that can be embedded in HTML  PHP   JavaScript (JS): cross-platform programming language, prototyped, interpreted, imperative, structured, with support for object-oriented programming  JavaScript   CSS (Cascading Style Sheets): graphic design language to define and create the presentation of a structured document written in a markup language. It is widely used to establish the visual design of web documents  CSS   JSP (Java Server Pages): technology aimed at creating web pages with Java programming. You can create web applications that run on various web servers, on multiple platforms  JSP   JQuery: cross-platform JavaScript library that simplifies the way you interact with HTML documents. It is free and open source software  JQuery    FRAMEWORKS  Angular: facilitates the development of SPA web applications; separate front-end and back-end in a web application  Angular   React: open source JavaScript library focused on the development of user interfaces. Front-end. Makes complex app development and planning much easier  React   Bootstrap: framework for CSS and JavaScript, front-end. It allows creating clean user interfaces that are fully adaptable to all types of devices and screens, whatever their size.  Bootstrap   Prototype: for web application development with JavaScript and AJAX  Prototype   Vue: JavaScript front-end framework for creating single page user interfaces and applications  Vue   Django: framework written in Python, back-end. It allows the rapid development of safe and maintainable websites. It\u0026rsquo;s free and open source  Django   Php frameworks: platforms for creating php web applications. They provide code libraries, reducing the amount of original code. Laravel: php framework. Enables the development of high-quality, fully customized web applications  Laravel   Hugo: framework written in go. It is a very fast static website builder  Hugo   Gatsby: framework, static site generator  Gatsby   Jekyll: simple generator for static websites with blogging capabilities; suitable for personal, project or organization websites  Jekyll   Pelican: static site generator, written in Python  Pelican    WEB TOOLS  TypeScript: programming language that transforms code to JavaScript, front-end transpiler  TypeScript   Babel: JavaScript compiler. ES6 + to ES5 code transpiler  Babel   Scraping: technique used to extract information from web pages in an automated way. Simulates the navigation of a human  Scraping   Heroku: cloud computing service platform (PaaS) that allows applications to be deployed without worrying about infrastructure. Supports multiple programming languages  Heroku   Webpack: static module package for JavaScript. Compile and compress files with dependencies to js files  Webpack   Polyfill: code snippet or plugin, in JavaScript, used to provide modern functionality in older browsers that don\u0026rsquo;t support it  Polyfill   Sass: transpiler for CSS, very powerful. You need to have ruby ​​installed  Sass    "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/",
+	"title": "Static sites generator hugo",
+	"tags": [],
+	"description": "",
+	"content": "SECTION 2 STATIC SITES GENERATOR hugo This section is about hugo, which is a static site generator framework\n Theory Practice  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/",
+	"title": "2.1 Hugo theory",
+	"tags": [],
+	"description": "",
+	"content": " Hugo installation Themes Add content Shortcodes Customize layout Multilanguage Own custom layout External data - TV channels  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/instalacion_hugo/",
+	"title": "Hugo installation",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/temas/",
+	"title": "Themes",
+	"tags": [],
+	"description": "",
+	"content": "Themes available in hugo Hugo themes  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/contenido/",
+	"title": "Add content",
+	"tags": [],
+	"description": "",
+	"content": "Add content to pages\n To add content you have to generate text pages with ** markdown ** format\n Creating content pages It is important to establish well the organization of the contents\n Create chapter or section directories. You can include a _index.md file Create content files with the command hugo new section_name / file_name.md The files are created in the ** content ** folder of the site\u0026rsquo;s root directory Sections or chapters have a default content specified in archetypes / chapter.md The files have a default content specified in archetypes / default.md Each file created has the front matter at the beginning, enclosed between two blocks of 3 lines - - - Taxonomies allow you to classify content. By default, hugo adds the taxonomies categories and tags  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/shortcodes/",
+	"title": "Shortcodes",
+	"tags": [],
+	"description": "",
+	"content": "EXAMPLES OF SHORTCODES  A shortcode is a snippet of html code that will be rendered inside an md file when the system loads or renders the content page\n  Buttons\nButton that links to hugo\u0026rsquo;s website  Web de hugo     Attachments - download pages    Page Attachments location     md in directory with the same page name and ending in .files   directory in a nested files directory        Attachments   Attachments documentation.pdf (69 KB)     Shorten a text with read more \u0026hellip; Click on the text to expand   Hugo is one of the most popular open source static site generators.   With his incredible speed and flexibility, Hugo makes website building fun again.     Highlighted texts News News\n Information Information\n Notice Notice\n    Tabs of different elements Very useful for providing code snippets for multiple languages ​​or providing settings in different formats json XML properties  json { \u0026ldquo;Hello\u0026rdquo;: \u0026ldquo;World\u0026rdquo; } `` ''\n xml World `` ''\n   properties Hello = World `` ''\n      Link to a youtube video     "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/personalizar_plantilla/",
+	"title": "Customize template",
+	"tags": [],
+	"description": "",
+	"content": "Parts of a template 1. LOGO\n logo.html is located in themes/layouts/partials To customize the logo, copy the file in my_site/layouts/partials Create in static a folder - images - and inside paste a logo.png Reference it in logo.html    2. MENU\n In the layout learn, the menu is located in the left side To add / modify, you have to specify it in config.toml, adding the elements [[menu.shortcuts]]\n The title of the menu is set in /i18n/en.toml for the English language   3. STYLE\n learn has 3 different color styles To use them, you have to set the value in the variable themeVariant in the file config.toml Allowed values ​​are red, green, blue You can also create css files and load them. For example, to set a menu background color other than the default colors:   Copy themes/learn/static/css/theme-blue.css in a file theme-dwes.css located in static/css\nEstablish themeVariant = \u0026ldquo;dwes\u0026rdquo;\n  4. SEARCH BUTTON\n It can be modified from theme-dwes.css 5. HOME It is modified in config.toml, modifying the parameters within a language section   5. FOOTER\n To modify it, copy menu-footer.html in layouts / partials  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/multilenguaje/",
+	"title": "Multilanguage",
+	"tags": [],
+	"description": "",
+	"content": "Set different languages ​​in hugo 1. Modify config.toml  2. You can set a default language  3. Changing the default page\n You have to set the content of the page by default in the languages In learn, if there is no content in \u0026ldquo;content\u0026rdquo;, this content is in the index.html file, located in themes / learn / layouts This template is prepared for English and French, so you have to add a control structure to include another language   4. Changing values ​​through variables\n Words can be specified to be translated In i18n, the first 2 letters of the files identify the language These files translate and the system gets the value of the file, using hugo\u0026rsquo;s translation function    5. Menus in several languages ​​\n Set in config.toml:   [Languages] [Languages.en] ... [[Languages.en.menu.shortcuts]]  ** 6. Adding translated pages**\n One way to specify the translations is to name each file corresponding to a page referencing the languages\n file.es.md file.en.md file.fr.md  In config.toml, indicate, with the variable contentDir, the directory where the files translated into the language are located:   [Languages] [Languages.en] ... ContentDir = \u0026quot;content\u0026quot; "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/plantilla_propia/",
+	"title": "Own custom layout",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/teoria/datos_externos/",
+	"title": "TV channels",
+	"tags": [],
+	"description": "",
+	"content": "Consume data from structured files\nLIST OF SPANISH TV CHANNELS  "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/estatico/practica/",
+	"title": "2.2 Hugo practice",
+	"tags": [],
+	"description": "",
+	"content": "Do the following practice with Hugo "
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/",
+	"title": "DWES English",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://anadeap.github.io/dwes/en/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

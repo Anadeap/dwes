@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.1 Teoría de hugo on DWES Español</title>
+    <link>https://anadeap.github.io/dwes/es/estatico/teoria/</link>
+    <description>Recent content in 2.1 Teoría de hugo on DWES Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 20:35:41 +0100</lastBuildDate><atom:link href="https://anadeap.github.io/dwes/es/estatico/teoria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalación de hugo</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/instalacion_hugo/</link>
+      <pubDate>Sun, 07 Nov 2021 20:41:23 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/instalacion_hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temas - Themes</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/temas/</link>
+      <pubDate>Sun, 07 Nov 2021 20:42:53 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/temas/</guid>
+      <description>Themes (temas) disponibles en hugo Themes de hugo  </description>
+    </item>
+    
+    <item>
+      <title>Añadir contenido</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/contenido/</link>
+      <pubDate>Sun, 07 Nov 2021 20:44:12 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/contenido/</guid>
+      <description>Añadir contenido a las páginas
+ Para añadir contenido hay que generar páginas de texto con formato markdown
+ Creando páginas de contenido Es importante establecer bien la organización de los contenidos
+ Crear directorios chapter ó sección. Puede incluir un fichero _index.md Crear ficheros de contenido con el comando hugo new nombre_seccion/nombre_fichero.md Los ficheros se crean en la carpeta content del directorio raíz del sitio Las secciones ó capitulos tienen un contenido por defecto especificado en archetypes/chapter.</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/shortcodes/</link>
+      <pubDate>Sun, 07 Nov 2021 20:45:32 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/shortcodes/</guid>
+      <description>EJEMPLOS DE SHORTCODES  Un shortcode es un fragmento de código html que será renderizado dentro de un fichero md cuando el sistema cargue o renderice la página de contenido
+  Botones
+Botón que enlaza con la web de hugo
+ Web de hugo     Attachments - páginas de descarga    Página Ubicación attachments     md en directorio con el mismo nombre de la página y acabado en .</description>
+    </item>
+    
+    <item>
+      <title>Personalizar plantilla</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/personalizar_plantilla/</link>
+      <pubDate>Sun, 07 Nov 2021 20:48:53 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/personalizar_plantilla/</guid>
+      <description>Partes de una plantilla 1. LOGO
+ logo.html está ubicado en themes/layouts/partials Para personalizar el logo, copiar el fichero en mi_sitio/layouts/partials Crear en static una carpeta - images - y dentro pegar un logo.png Referenciarlo en logo.html    2. MENÚ
+ En la plantilla learn, el menú está ubicado en la parte izquierda. Para añadir/modificar, hay que especificarlo en config.toml, añadiendo los elementos [[menu.shortcuts]]
+ El título del menú se establece en /i18n/es.</description>
+    </item>
+    
+    <item>
+      <title>Multilenguaje</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/multilenguaje/</link>
+      <pubDate>Sun, 07 Nov 2021 20:50:09 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/multilenguaje/</guid>
+      <description>Establecer diferentes idiomas en hugo
+1. Modificar config.toml
+ 2. Se puede establecer un idioma por defecto  3. Cambiando la página por defecto
+ Hay que establecer el contenido de la página por defecto en los idiomas En learn, si no hay contenido en &amp;ldquo;content&amp;rdquo;, este contenido está en el fichero index.html, ubicado en themes/learn/layouts Esta plantilla está preparada para inglés y francés, por lo que hay que añadir una estructura de control para incluir otro idioma   4.</description>
+    </item>
+    
+    <item>
+      <title>Plantilla personalizada propia</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/plantilla_propia/</link>
+      <pubDate>Sun, 07 Nov 2021 20:51:01 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/plantilla_propia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canales TV</title>
+      <link>https://anadeap.github.io/dwes/es/estatico/teoria/datos_externos/</link>
+      <pubDate>Sun, 07 Nov 2021 20:52:54 +0100</pubDate>
+      
+      <guid>https://anadeap.github.io/dwes/es/estatico/teoria/datos_externos/</guid>
+      <description>Consumir datos de ficheros con estructura
+LISTADO DE CANALES ESPAÑOLES DE TV  </description>
+    </item>
+    
+  </channel>
+</rss>
